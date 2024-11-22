@@ -1,0 +1,18 @@
+<?php
+//Facebook Application Configuration.
+/*$facebook_appid='App ID';
+$facebook_app_secret='App Secret';*/
+
+/*$facebook_appid='839048939534015';
+$facebook_app_secret='234e13237ba4eb0b4c99eb261f11d199';*/
+
+$facebook_appid='530512577132719';
+$facebook_app_secret='718b4a0b29c2413aecf672c281312e52'; // Ashish
+
+$facebook_scope='email,user_birthday'; // Don't modify this
+
+$facebook = new Facebook(array(
+'appId'  => $facebook_appid,
+'secret' => $facebook_app_secret,
+));
+?>
